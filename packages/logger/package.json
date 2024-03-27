@@ -1,0 +1,31 @@
+{
+	"name": "@packages/logger",
+	"version": "1.0.0",
+	"description": "",
+	"exports": {
+		"./package.json": "./package.json",
+		"./src/Logger": "./src/Logger.ts",
+		"./src/reqLogger": "./src/reqLogger.ts",
+		"./src/Nodecache": "./src/nodecache.ts"
+	},
+	"scripts": {},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+	  "prettier": "^3.0.0"
+	},
+	"publishConfig": {
+	  "access": "public"
+	},
+
+	"dependencies": {
+		"dotenv": "^16.3.1",
+		"@packages/commons": "^1.0.0",
+		"cls-rtracer": "^2.6.3",
+		"pino": "^8.17.2",
+		"pino-http": "^9.0.0",
+		"node-cache": "^5.1.2"
+	}
+  }
+  
+

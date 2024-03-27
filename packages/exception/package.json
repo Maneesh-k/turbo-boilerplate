@@ -1,0 +1,29 @@
+{
+	"name": "@packages/exception",
+	"version": "1.0.0",
+	"description": "",
+	"exports": {
+		"./src/Handler": "./src/Handler.ts",
+		"./package.json": "./package.json",
+		"./src/CustomException": "./src/CustomException.ts",
+		"./src/NativeEvent": "./src/NativeEvent.ts",
+		"./src/WorkerException": "./src/WorkerException.ts"
+	},
+	"scripts": {},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+	  "prettier": "^3.0.0"
+	},
+	"publishConfig": {
+	  "access": "public"
+	},
+
+	"dependencies": {
+		"dotenv": "^16.3.1",
+		"@packages/commons": "^1.0.0",
+		"@packages/logger": "^1.0.0"
+	}
+  }
+  
+
