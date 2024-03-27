@@ -1,0 +1,24 @@
+{
+  "name": "turbo-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:express-api":"turbo run start:dev --filter=express-api",
+    "lint": "turbo run lint",
+    "build": "turbo run build",
+    "build:watch": "turbo run build:watch",
+    "test": "turbo run test",
+    "update": "npm update"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "dotenv-cli": "^7.2.1",
+    "turbo": "^1.10.9"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
